@@ -1,0 +1,21 @@
+.barchar-container {
+  display: inline-grid;
+  width: 100%;
+  gap: 5px;
+  grid-template-columns: [col-0] 49vw [col-1] 49vw [col-2];
+  grid-template-rows: [row-0] 100vh;
+}
+
+.plot1-container {
+  border-right: 1px solid #0c0c0c;
+}
+
+#chartCanvas1 {
+  width: 50vw;
+  display: inline;
+}
+
+#chartCanvas2 {
+  width: 50vw;
+  display: inline;
+}

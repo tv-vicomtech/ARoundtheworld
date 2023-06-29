@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg3880" viewBox="0 0 40.509 40.509" version="1.0">
+  <g id="layer1" transform="translate(-165.46 -492.11)">
+    <path id="path2471" d="m173.5 529.91c0.82 0.62 3.63-1.05 6.39-3.81l6.3-6.3 10.06 10.06c0.74 0.75 2.89-0.2 4.82-2.14 1.93-1.93 2.89-4.08 2.15-4.83l-10.06-10.06 6.29-6.29c2.83-2.83 4.51-5.71 3.76-6.45l-5.23-5.23c-0.74-0.74-3.62 0.93-6.45 3.76l-6.29 6.3-10.06-10.06c-0.74-0.74-2.9 0.21-4.83 2.14s-2.88 4.09-2.14 4.83l10.06 10.06-6.29 6.29c-2.83 2.83-4.51 5.7-3.77 6.45l5.23 5.23c0.02 0.02 0.04 0.04 0.06 0.05z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5" fill="#fc0000"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>cross</dc:title>
+        <dc:date>2008-03-19T23:42:35</dc:date>
+        <dc:description>clip art, clipart, cross, cross, icon, icon, image, media, public domain, sign, sign, svg, </dc:description>
+        <dc:source>http://openclipart.org/detail/15875/cross-by-mcol</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mcol</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>cross</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

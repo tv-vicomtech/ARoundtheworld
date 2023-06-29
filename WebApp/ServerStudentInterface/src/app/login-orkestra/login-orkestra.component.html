@@ -1,0 +1,22 @@
+<h2>Login to Orkestra</h2>
+<div id="form">
+    <div class="form-group">
+        <label for="room">Session name</label>
+        <input type="text" class="form-control" disabled [(ngModel)]="room_default" placeholder="Session name" />
+    </div>
+
+    <div class="form-group">
+        <label for="agentID">Student name</label>
+        <input type="text" class="form-control" [(ngModel)]="agentID_default" placeholder="Your name goes here"/>
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-primary" (click)="onLogin()">
+            Login
+        </button>
+    </div>
+
+    <div class="form-group">
+        <p class="error-message">{{errorMsg}}</p>
+    </div>
+</div>

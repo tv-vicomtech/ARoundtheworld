@@ -1,0 +1,51 @@
+<div class="game-info-container" *ngIf="this.helpService.isPlaying">
+    <div class="player-name">
+        <span>Playing student: {{this.helpService.activePlayerName}}</span>
+    </div>
+    <br />
+    <div class="question-name">
+        <span>Question: {{this.helpService.activeQuestion}}</span>
+    </div>
+    <hr class="line" />
+</div>
+<div class="continent-button-container" *ngIf="this.helpService.isPlaying">
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="africa" src="assets/client/public/help-controls/images/africa-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('africa')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="antarctica" src="assets/client/public/help-controls/images/antarctica-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('antarctica')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="asia" src="assets/client/public/help-controls/images/asia-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('asia')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="oceania" src="assets/client/public/help-controls/images/australia-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('oceania')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="europe" src="assets/client/public/help-controls/images/europe-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('europe')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="north-america" src="assets/client/public/help-controls/images/north-america-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('north-america')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.helpSent || this.helpService.isConfirmingAnswer}" id="south-america" src="assets/client/public/help-controls/images/south-america-silhouette.svg" />
+        <span class="help-count">{{orkestraService.helpMap.get('south-america')}}</span>
+    </span>
+</div>
+<br />
+<div class="thumb-button-container" *ngIf="this.helpService.isConfirmingAnswer">
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.help2Sent}" id="up" src="assets/client/public/help-controls/images/up.png" />
+        <span class="help-count">{{orkestraService.helpMap.get('up')}}</span>
+    </span>
+    <span>
+        <img class="help-button" [ngClass]="{'helped': this.helpService.help2Sent}" id="down" src="assets/client/public/help-controls/images/down.png" />
+        <span class="help-count">{{orkestraService.helpMap.get('down')}}</span>
+    </span>
+</div>

@@ -1,0 +1,41 @@
+LOCALIZACIÓN            MI RESPUESTA        RESPUESTA CORRECTA  PUNTOS      TIEMPO GASTADO
+
+Ciudad del Vaticano     47.87, 13.18        41.90, 12.45        2.625       6/40
+
+Andorra                 48.99, 0.77         42.55, 1.58         2.625       28/40
+
+Liechtenstein           54.38, 9.54         47.15, 9.55         2.625       0/40
+
+Singapur                1.94, 104.70        1.28, 103.83        8.4         14/40
+
+Maldivas                5.17, 73.72         4.18, 73.51         8.5         0/40
+
+Suazilandia             -29.09, 30.21       -26.50, 31.50       6.2         14/40
+
+Islas Marshall          4.19, 178.90        9.82, 169.29        2.7         12/40
+
+Tuvalu                  -5.07, 176.25       -8.52, 179.20       4.125       6/40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

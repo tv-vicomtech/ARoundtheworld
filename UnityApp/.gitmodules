@@ -1,0 +1,12 @@
+[submodule "Assets/Scripts/OrkestraLib-HSIO"]
+	path = Assets/Scripts/OrkestraLib-HSIO
+	url = git@github.com:tv-vicomtech/orkestralibUnity.git
+	branch = module/hsio
+[submodule "Assets/Scripts/OrkestraLib"]
+	path = Assets/Scripts/OrkestraLib
+	url = git@github.com:tv-vicomtech/orkestralibUnity.git
+	branch = module/core
+[submodule "Assets/TinCan"]
+	path = Assets/TinCan
+	url = git@github.com:RusticiSoftware/TinCan.NET.git
+	branch = master

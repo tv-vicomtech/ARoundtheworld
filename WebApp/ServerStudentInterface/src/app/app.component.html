@@ -1,0 +1,15 @@
+<nav>
+  <mat-toolbar color="primary">
+
+    <span *ngIf="!orkestraService.login" routerLink="/" routerLinkActive="active" id='titulo' >{{title}}</span>
+    <span *ngIf="orkestraService.login" routerLink="/dashboard" routerLinkActive="active" id='titulo' >{{title}}</span>
+
+    <div id="logout">
+      <button mat-icon-button *ngIf="orkestraService.login" (click)="logout()">
+        <mat-icon svgIcon="logout" aria-hidden="false" aria-label="Logout icon"></mat-icon>
+      </button>
+    </div>
+  </mat-toolbar>
+</nav>
+<p-toast></p-toast>
+<router-outlet></router-outlet>

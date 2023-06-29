@@ -1,0 +1,92 @@
+<div id="dashboard">
+  <div id="webRTC">
+    <!-- <app-receiver></app-receiver> -->
+    <app-earth></app-earth>
+  </div>
+  <div id="studentList">
+    <div *ngIf="studentService.studentsDataSource.data.length == 0">
+      <span mat-container>There are no students in this room.</span>
+    </div>
+    <div *ngIf="studentService.studentsDataSource.data.length > 0">
+      <table mat-table [dataSource]="studentService.studentsDataSource" id="tableStudents">
+        <ng-container matColumnDef="AgentID">
+          <th mat-header-cell *matHeaderCellDef>ID Student</th>
+          <td mat-cell *matCellDef="let student">{{ 
+            student.agentID.includes("#w_t_") ? 
+            "👩‍🏫 " + student.agentID.replace('#w_t_','') : student.agentID.includes("#u_s_") ? 
+            "👩‍🎓 " + student.agentID.replace('#u_s_','') : student.agentID.includes("#w_s_") ? 
+            "💻 " + student.agentID.replace('#w_s_','') : student.agentID
+          }}</td>
+        </ng-container>
+        <ng-container matColumnDef="Questions">
+          <th mat-header-cell *matHeaderCellDef>Questions Asked</th>
+          <td mat-cell *matCellDef="let student">
+            <mat-list>
+              <mat-list-item
+                *ngFor="
+                  let q of student.questionsAsked | keyvalue: originalOrder
+                "
+              >
+                {{ q.key.title }}
+              </mat-list-item>
+            </mat-list>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="Difficulty">
+          <th mat-header-cell *matHeaderCellDef>Difficulty</th>
+          <td mat-cell *matCellDef="let student" class="nostretch block">
+            <mat-list>
+              <mat-list-item
+                *ngFor="
+                  let q of student.questionsAsked | keyvalue: originalOrder
+                "
+              >
+                {{ q.key.difficulty }}
+              </mat-list-item>
+            </mat-list>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="Answers">
+          <th mat-header-cell *matHeaderCellDef>Answer</th>
+          <td mat-cell *matCellDef="let student" class="nostretch block">
+            <mat-list>
+              <mat-list-item
+                *ngFor="
+                  let q of student.questionsAsked | keyvalue: originalOrder
+                "
+              >
+                <p style="margin-bottom: 0;" *ngIf="q.value.lat && q.value.lon">{{ q.value.lat }}, {{ q.value.lon }}</p>
+                <p style="margin-bottom: 0;" *ngIf="!q.value.lat || !q.value.lon">Not answered</p>
+              </mat-list-item>
+            </mat-list>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="Time">
+          <th mat-header-cell *matHeaderCellDef>Time used</th>
+          <td mat-cell *matCellDef="let student" class="nostretch block">
+            <mat-list>
+              <mat-list-item
+                *ngFor="
+                  let q of student.questionsAsked | keyvalue: originalOrder
+                "
+              >
+                <p style="margin-bottom: 0;" *ngIf="q.value.time ">{{ maxTime - q.value.time }}/{{ maxTime }}</p>
+                <p style="margin-bottom: 0;" *ngIf="!q.value.time "></p>
+              </mat-list-item>
+            </mat-list>
+          </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr
+          mat-row
+          *matRowDef="let row; columns: displayedColumns"
+          id="filas"
+        ></tr>
+      </table>
+    </div>
+    
+  </div>
+  <div id="helpControls">
+    <app-help-controls></app-help-controls>
+  </div>
+</div>

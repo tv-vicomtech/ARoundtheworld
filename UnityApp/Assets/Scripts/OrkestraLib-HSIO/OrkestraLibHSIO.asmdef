@@ -1,0 +1,16 @@
+{
+    "name": "OrkestraLibHSIO",
+    "rootNamespace": "",
+    "references": [
+        "GUID:84fcebcb9ec0ebb429ef967ccb323291"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

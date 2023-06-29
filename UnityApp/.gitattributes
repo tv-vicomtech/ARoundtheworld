@@ -1,0 +1,5 @@
+*.js !text !filter !merge !diff
+*.json !text !filter !merge !diff
+*.tgz !text !filter !merge !diff
+*.map !text !filter !merge !diff
+*.cvs !text !filter !merge !diff

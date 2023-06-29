@@ -1,0 +1,76 @@
+{
+    "quizName": "Landmarks.json",
+    "questions":
+    [
+        {
+            "location": "Torre Eiffel",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "48.86",
+            "longitude": "2.29"
+        },
+        {
+            "location": "Ópera de Sídney",
+            "continent": "OC",
+            "difficulty": "1",
+            "latitude": "-33.86",
+            "longitude": "151.21"
+        },
+        {
+            "location": "Coliseo",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "41.89",
+            "longitude": "12.49"
+        },
+        {
+            "location": "Templo Expiatorio de la Sagrada Familia",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "41.40",
+            "longitude": "2.17"
+        },
+        {
+            "location": "Estatua de la Libertad",
+            "continent": "NA",
+            "difficulty": "2",
+            "latitude": "40.69",
+            "longitude": "-74.04"
+        },
+        {
+            "location": "Cataratas del Niágara",
+            "continent": "NA",
+            "difficulty": "2",
+            "latitude": "43.08",
+            "longitude": "-79.07"
+        },
+        {
+            "location": "Angkor Wat",
+            "continent": "SA",
+            "difficulty": "3",
+            "latitude": "13.41",
+            "longitude": "103.87"
+        },
+        {
+            "location": "Abu Simbel",
+            "continent": "AF",
+            "difficulty": "4",
+            "latitude": "22.34",
+            "longitude": "31.63"
+        },
+        {
+            "location": "Uluru",
+            "continent": "OC",
+            "difficulty": "4",
+            "latitude": "-25.34",
+            "longitude": "131.04"
+        },
+        {
+            "location": "Wat Rong Khun",
+            "continent": "AS",
+            "difficulty": "5",
+            "latitude": "19.82",
+            "longitude": "99.76"
+        }
+    ]
+}

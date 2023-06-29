@@ -1,0 +1,76 @@
+{
+    "quizName": "Mountains.json",
+    "questions":
+    [
+        {
+            "location": "Teide",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "28.27",
+            "longitude": "-16.64"
+        },
+        {
+            "location": "Mont Blanc",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "45.83",
+            "longitude": "6.87"
+        },
+        {
+            "location": "Monte Everest",
+            "continent": "AS",
+            "difficulty": "2",
+            "latitude": "27.99",
+            "longitude": "86.93"
+        },
+        {
+            "location": "Pico Aneto",
+            "continent": "EU",
+            "difficulty": "2",
+            "latitude": "42.63",
+            "longitude": "0.66"
+        },
+        {
+            "location": "Cervino",
+            "continent": "EU",
+            "difficulty": "3",
+            "latitude": "45.98",
+            "longitude": "7.66"
+        },
+        {
+            "location": "Kilimanjaro",
+            "continent": "AF",
+            "difficulty": "3",
+            "latitude": "-3.07",
+            "longitude": "37.36"
+        },
+        {
+            "location": "Mauna Kea",
+            "continent": "NA",
+            "difficulty": "4",
+            "latitude": "19.82",
+            "longitude": "-155.47"
+        },
+        {
+            "location": "Nanga Parbat",
+            "continent": "AS",
+            "difficulty": "4",
+            "latitude": "35.24",
+            "longitude": "74.59"
+        },
+        {
+            "location": "Volcán Chimborazo",
+            "continent": "SA",
+            "difficulty": "4",
+            "latitude": "-1.47",
+            "longitude": "-78.82"
+        },
+        {
+            "location": "Kliuchevskoi",
+            "continent": "AS",
+            "difficulty": "5",
+            "latitude": "56.07",
+            "longitude": "160.63"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+#dashboard {
+  display: inline-grid;
+  /* table-layout: fixed; */
+  width: 100%;
+  gap: 5px;
+  grid-template-columns: [col-0] 48vw [col-1] 50vw [col-2];
+  grid-template-rows: [row-0] 47vh [row-1] 45vh [row-2];
+}
+
+.column {
+  max-width: 50%;
+}
+
+#tableStudents {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.top {
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  width: 20%;
+}
+
+#cameraControls {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  grid-template-rows: repeat(3, 0.3fr);
+  justify-items: center;
+}
+
+#webRTC {
+  grid-column: col-0;
+  grid-row: row-0 / row-2;
+  border-right: 1px solid #0c0c0c;
+}
+
+#studentList {
+  grid-column: col-1;
+  grid-row: row-0 / row-1;
+  /* border: 3px solid #0c0c0c; */
+  /* display: table-cell; */
+  text-align: center;
+  border-bottom: 1px solid #0c0c0c;
+  overflow: auto;
+}
+
+#helpControls {
+  grid-column: col-1;
+  grid-row: row-1 / row-2;
+}
+
+img#playButton .play {
+  height: 30%;
+  width: 20%;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+#formStudent {
+  align-items: center;
+  right: -38%;
+  top: 11%;
+}
+
+#barCanvas {
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  margin-top: auto;
+}

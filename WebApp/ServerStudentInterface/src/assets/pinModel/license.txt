@@ -1,0 +1,11 @@
+Model Information:
+* title:	Map Pin
+* source:	https://sketchfab.com/3d-models/map-pin-667ec99860674e57892823a19a1d8f15
+* author:	Ilyas.King (https://sketchfab.com/Ilyas.King)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Map Pin" (https://sketchfab.com/3d-models/map-pin-667ec99860674e57892823a19a1d8f15) by Ilyas.King (https://sketchfab.com/Ilyas.King) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

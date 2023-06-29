@@ -1,0 +1,64 @@
+.game-info-container {
+  margin-top: 1rem;
+}
+
+.player-name,
+.question-name {
+  text-align: center;
+}
+
+.line {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.help-button {
+  max-width: 5rem;
+  margin-left: 1rem;
+  /* cursor: pointer; */
+  display: inline-block;
+  transition: 0.2s all;
+}
+
+/* .help-button:hover {
+  transform: scale(1.2);
+} */
+
+/* .help-button:active {
+  transform: scale(0.8);
+} */
+
+.continent-button-container,
+.thumb-button-container {
+  text-align: center;
+}
+
+.help-count {
+  cursor: default;
+  pointer-events: none;
+  font-size: 16px;
+  width: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  border-radius: 3px;
+  position: relative;
+  left: -2.5rem;
+}
+
+.helped {
+  cursor: default;
+  filter: opacity(50%);
+}
+
+.helped:hover,
+.helped:active {
+  transform: none;
+}

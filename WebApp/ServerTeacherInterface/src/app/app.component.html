@@ -1,0 +1,33 @@
+<nav>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"  [matMenuTriggerFor]="menu" *ngIf="orkestraService.login">
+    <mat-icon>menu</mat-icon>
+      <mat-menu #menu="matMenu">
+        <a mat-menu-item routerLink="/estadisticas">Estadísticas</a>
+      </mat-menu>
+    </button>
+
+    <span *ngIf="!orkestraService.login" routerLink="/" routerLinkActive="active" id='titulo' >{{title}}</span>
+    <span *ngIf="orkestraService.login" routerLink="/dashboard" routerLinkActive="active" id='titulo' >{{title}}</span>
+
+    <div id="forms" *ngIf="orkestraService.login">
+      <mat-form-field appearance="outline" id="formQuiz">
+        <mat-label>Select a quiz</mat-label>
+        <mat-select [disabled]="quizStarted ? '' : null" [(value)]="selectedQuizIndexUI" >
+          <mat-option *ngFor="let quiz of quizList; let indice=index;" [value]=indice+1>{{quiz.quizName}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button *ngIf="!canStart()" mat-raised-button disabled="true" id="startQuiz">Start Quiz</button>
+      <button *ngIf="canStart()" mat-raised-button [disabled]="quizStarted" id="startQuiz" (click)="startQuiz()">Start Quiz</button>
+      <button *ngIf="!orkestraService.quizEnded" mat-raised-button disabled="true" id="downloadResults">Download Results</button>
+      <button *ngIf="orkestraService.quizEnded" mat-raised-button id="downloadResults" (click)="downloadResults()">Download Results</button>
+    </div>
+    <div id="logout">
+      <button mat-icon-button *ngIf="orkestraService.login" (click)="logout()">
+        <mat-icon svgIcon="logout" aria-hidden="false" aria-label="Logout icon"></mat-icon>
+      </button>
+    </div>
+  </mat-toolbar>
+</nav>
+<p-toast></p-toast>
+<router-outlet></router-outlet>

@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+@import "primeng/resources/primeng.min.css";
+@import "primeng/resources/themes/saga-blue/theme.css";
+
+html, body { height: 100%;  }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; min-height: 100%;   /* Margin bottom by footer height */
+  margin-bottom: 60px;}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.p-messages
+{
+  position:relative;
+}

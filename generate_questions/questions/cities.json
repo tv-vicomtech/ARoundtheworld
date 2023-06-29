@@ -1,0 +1,76 @@
+{
+    "quizName": "Cities.json",
+    "questions":
+    [
+        {
+            "location": "Barcelona",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "41.38",
+            "longitude": "2.18"
+        },
+        {
+            "location": "Oporto",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "41.15",
+            "longitude": "-8.61"
+        },
+        {
+            "location": "Milán",
+            "continent": "EU",
+            "difficulty": "1",
+            "latitude": "45.47",
+            "longitude": "9.19"
+        },
+        {
+            "location": "Múnich",
+            "continent": "EU",
+            "difficulty": "2",
+            "latitude": "48.14",
+            "longitude": "11.58"
+        },
+        {
+            "location": "Chicago",
+            "continent": "NA",
+            "difficulty": "2",
+            "latitude": "41.85",
+            "longitude": "-87.65"
+        },
+        {
+            "location": "Toronto",
+            "continent": "NA",
+            "difficulty": "2",
+            "latitude": "43.67",
+            "longitude": "-79.39"
+        },
+        {
+            "location": "Marrakech",
+            "continent": "AF",
+            "difficulty": "3",
+            "latitude": "31.63",
+            "longitude": "-7.98"
+        },
+        {
+            "location": "Shanghái",
+            "continent": "AS",
+            "difficulty": "3",
+            "latitude": "31.17",
+            "longitude": "121.47"
+        },
+        {
+            "location": "Haifa",
+            "continent": "AS",
+            "difficulty": "4",
+            "latitude": "32.82",
+            "longitude": "35.00"
+        },
+        {
+            "location": "Vladivostok",
+            "continent": "AS",
+            "difficulty": "5",
+            "latitude": "43.12",
+            "longitude": "131.90"
+        }
+    ]
+}
